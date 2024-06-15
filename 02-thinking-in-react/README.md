@@ -76,4 +76,4 @@
 ### Step 5: Add inverse data flow.
 
         - To change the state according to the user input, you will need to support data flowing the other way: the form components deep in the hierarchy need to update the state in FilterableProductTable.
-        -
+
