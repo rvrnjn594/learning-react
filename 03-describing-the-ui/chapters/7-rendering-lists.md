@@ -97,7 +97,7 @@ A well-chosen key helps React infer what exactly has happened, and make the corr
 
 What do you do when each item needs to render not one, but several DOM nodes?
 
-> The short <>...</> Fragment syntax won't let you pass a key, so you need to either group them into a single <div>, or use the slightly longer and more explicit <Fragment> syntax:
+> The short <>...</> Fragment syntax won't let you pass a key, so you need to either group them into a single div, or use the slightly longer and more explicit Fragment syntax:
 
     > import {Fragment} from "react";
     > // ...
@@ -107,7 +107,7 @@ What do you do when each item needs to render not one, but several DOM nodes?
     >       <p>{person.bio}</p>
     >   </Fragent>);
 
-Note: Fragments disappear from DOM, so this will produce a flat list of <h1>, <p>, <h1>, <p>, and so on.
+Note: Fragments disappear from DOM, so this will produce a flat list of h1, p, h1, p, and so on.
 
 ### Where to get your _key_
 
@@ -158,4 +158,4 @@ Different sources of data provide different sources of keys:
 
 **Instead, use a stable ID based on the data.**
 
-**Note**: your components won’t receive key as a prop. It’s only used as a hint by React itself. If your component needs an ID, you have to pass it as a separate prop: <Profile key={id} userId={id} />.
+**Note**: your components won’t receive key as a prop. It’s only used as a hint by React itself. If your component needs an ID, you have to pass it as a separate prop: Profile key={id} userId={id} /.
