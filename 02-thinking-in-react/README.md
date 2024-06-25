@@ -34,7 +34,7 @@
 >   >   > - ProductTable displays and filters the list according to the user input.
 >   >   > - ProductCategoryRow displays a heading for each product.
 >
-> > > > ProductRow displays a row for each product.
+> > - ProductRow displays a row for each product.
 >
 > - Now you have identified the components in the mockup, arrange them into a heirarchy. (See above, the child components are listed under parent components.)
 
