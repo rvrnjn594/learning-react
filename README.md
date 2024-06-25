@@ -20,3 +20,5 @@ To run the project : use the script npm run dev.
 #### 03. Describing the UI
 
 #### 04. Adding Interactivity
+
+#### 05. Managing State

@@ -56,7 +56,7 @@ This is known as **“lifting state up”, and it’s one of the most common thi
 >
 > However, sometimes this is not what you want. In this chat app, typing a message and then switching the recipient does not reset the input. This can make the user accidentally send a message to the wrong person:
 >
-> > React lets you override the default behavior, and force a component to reset its state by passing it a different key, like <Chat key={email} />.
+> > React lets you override the default behavior, and force a component to reset its state by passing it a different key, like < Chat key={email} />.
 >
 > > This tells React that if the recipient is different, it should be considered a different Chat component that needs to be re-created from scratch with the new data (and UI like inputs).
 >
