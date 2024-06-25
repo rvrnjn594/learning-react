@@ -32,7 +32,7 @@
 >   > - FilterableProductTable contains the entire app.
 >   >   > - SearchBar receives the user input.
 >   >   > - ProductTable displays and filters the list according to the user input.
->   >   >   > ProductCategoryRow displays a heading for each product.
+>   >   > - ProductCategoryRow displays a heading for each product.
 >
 > > > > ProductRow displays a row for each product.
 >
